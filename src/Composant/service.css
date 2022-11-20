@@ -1,0 +1,52 @@
+.service-titre {
+  font-size: 3em;
+}
+.single {
+  font-style: bold;
+  font-size: 2em;
+  border-top: 1px groove #aaa;
+  /* border-style: groove; */
+}
+.section {
+  margin-top: 12px;
+}
+.fleche {
+  background-color: rgb(4, 212, 248);
+  font-size: 0.8em;
+  padding: 15px;
+  color: white;
+  border-radius: 50%;
+  transform: rotate(0.15turn);
+}
+svg {
+  transform: rotate(0.75turn);
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 5px;
+  scale: 10px;
+  animation-name: rotation;
+  animation-duration: 4s none;
+  animation-iteration-count: infinite;
+}
+svg:hover {
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0.75turn);
+  }
+  to {
+    transform: rotate(0.1turn);
+  }
+}
+path {
+  fill: transparent;
+}
+
+text {
+  border: 1px solid black;
+  fill: #ff9800;
+  font-size: 3.9em;
+}
+.text {
+  background-color: transparent;
+}
